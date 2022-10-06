@@ -5,13 +5,36 @@ body{
     width: 100%; 
     background-color: beige;
 }
-header {
+header{
+    display: flex;
     background-color: rgb(69, 68, 68);
+    color: white;
+    height: 10%;
+    justify-content: center;
+    /* text-align: center; */
+    
+}
+.header {
     font-size: 30px;
+    /* display: flex; */
+    /* background-color: rgb(69, 68, 68); */
+    /* font-size: 30px; */
     color: white;
     text-align: center;
-    height: 10%;
+    /* justify-content: center; */
+    /* height: 10%; */
+ 
 }
+header .material-symbols-outlined {
+    /* display: flex; */
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  /* justify-content: flex-start; */
+}
+
 .container {
 
     display: flex;
@@ -34,7 +57,7 @@ header {
     border: 2px solid black;
    text-align: center;
     width: 160px;
-    height: 160px;
+    /* height: 160px; */
     /* position: absolute; */
     /* top: 50%;
     transform: translate(0, -50%); */
@@ -43,8 +66,13 @@ header {
 }
 .categoryBox p {
     align-items: center; 
-    justify-content: center; 
-    flex-direction: column;
+    /* justify-content: center; 
+    flex-direction: column; */
+    padding: 20px 0px 20px 0px;
+}
+#cBwomen {
+    background-image: url(../img/211867922001_-_polo_ralph_lauren_women_s_ball_girl_striped_polo_shirt_-_navy_-_front_1.webp);
+    color: black;
 }
   .img {
     display: flex;
